@@ -1,10 +1,7 @@
 "use strict"; 
 //treat all JS code as newer version.
-
 //alert("hello") //We are using node.js, not browser.
-
 //Code readablity should be high.
-
 
 //Primitive data type (7-types)
 
@@ -20,8 +17,8 @@ const anotherId = Symbol('123');
 console.log(id === anotherId);
 //Undefined => No value has been assigned.
 
-
 //Non-Primitive or Reference data type (3-types)
+
 //Array
 const heros = ['Shaktiman', 'Naagraj', 'Doga'];
 //object
@@ -37,3 +34,29 @@ const myFunction = function() {
 console.log(typeof myFunction);
 console.log(typeof undefined); //undefined
 console.log(typeof null);
+
+//================ Memory ======================
+
+//Stack (Primitive)
+
+let myEmailAddress = "prasenjitpriyan@gmail.com";
+
+let anotherEmailAddress = myEmailAddress;
+anotherEmailAddress = "prasenjitpriyanmou@gmail.com"
+
+console.log(myEmailAddress);
+console.log(anotherEmailAddress);
+
+//Heep (Non-Primitive)
+
+let userOne = {
+    email: 'prasenjitpriyan@hotmail.com',
+    upi: "userone@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "pradipta.das1611@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
