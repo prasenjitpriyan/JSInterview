@@ -33,3 +33,17 @@ const source = {2: 'a', 4: 'b'};
 const returnedTarget = {...target, ...source};
 //console.log(returnedTarget);
 
+
+
+//============= Destructuring in Object ================
+
+const course = {
+    coursename: 'js in hindi',
+    price: '999',
+    courseInstructor: 'Prasenjit'
+}
+//course.courseInstructor
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+
