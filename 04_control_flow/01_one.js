@@ -39,3 +39,21 @@ if (balanceTwo < 500) {
 } else {
     console.log("less than 2000");
 }
+
+//================Shopping=======================
+const userLoggedIn = true;
+const debitCard = true;
+const loggedInFromGoogle = false;
+const loggedInFromEmail = true;
+//They have loged in, so they can shopping.
+//THEY have a dabit card, so they can shopping.
+
+if (userLoggedIn && debitCard) {
+    console.log("Allow to Shopping");
+}
+
+//Multiple condition check
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User logged in")
+}
+
