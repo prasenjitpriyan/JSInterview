@@ -1,2 +1,2 @@
-# JavascriptChaiaurCode
+# Javascript
 From youtube learning
