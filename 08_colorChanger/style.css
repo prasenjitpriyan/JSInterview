@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    background-color: black;
+   
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.canvas{
+    position: relative;
+}
+.canvas h1{
+    position: absolute;
+    left: 200px;
+}
+.canvas h2{
+    position: absolute;
+    top: 250px;
+    text-align: center;
+}
+#grey{
+    position: absolute;
+    border: 2px solid black;
+    background-color: grey;
+    padding: 50px;
+    left: 100px;
+    top: 100px;
+}
+#white{
+    position: absolute;
+    border: 2px solid black;
+    background-color: white;
+    padding: 50px;
+    left: 212px;
+    top: 100px;
+}
+#blue{
+    position: absolute;
+    border: 2px solid black;
+    background-color: blue;
+    padding: 50px;
+    left: 324px;
+    top: 100px;
+}
+#yellow{
+    position: absolute;
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 50px;
+    left: 436px;
+    top: 100px;
+}
+#purple{
+    position: absolute;
+    border: 2px solid black;
+    background-color: purple;
+    padding: 50px;
+    left: 548px;
+    top: 100px;
+}
